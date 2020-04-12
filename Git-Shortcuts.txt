@@ -1,0 +1,91 @@
+--------------------------------------- Git Command -----------------------------------------------
+
+01] Start Git : 
+	
+	NOTE : Remove Old Credentials from (credential Manager app)
+
+	1) set username and password : 
+
+		git --global user.name     "<username>"
+		git --global user.password "<password>"
+
+	2) Initiallize First Git Repository : 
+
+		a) Make repo on github 
+	
+		b) Now initialize our local(computer) repository using below command 
+			$ git init 
+	
+		c) Now add the folder you want
+			
+			- To add myfolder to stage 
+				$ git add myfolder
+			
+			- To stage my-file on local
+				$ git add my-file.py 
+			
+			- To add multiple file folder at once
+				
+				$ git add my-file.py myfolder mypage.html
+			
+			- To add all the files and folder which are changed	
+
+				$ git add .
+
+		d) Not commit all our changes  
+
+			$ git commit -m "my commit message"
+
+		e) Now add our remote repo (github) - To specify on which folder you want to put our data 
+
+			$ git remote add origin https://github.com/Kranti08/shortcuts.git
+
+		f) Now push our changes to github on master branch
+
+			$ git push -u origin master	
+
+___________________________________________________________________________________________________
+
+02] Git Info commands  :
+	
+	1) To get untracked , newly added files status 
+
+		$ git status 
+
+	2) To Check Which branch we are in 
+		
+		$ git branch 
+
+
+___________________________________________________________________________________________________
+
+03] branch : 
+	
+	1) git branch   : show all branches
+	
+	2) git branch car : create branch car 
+	
+	3) git checkout  car : switch to car branch
+
+	4) git branch -d car : delelte branch but ask for commit
+
+	5) git branch -D car : don't' ask for commit
+
+	6) git branch -m boat ship : rename branch boat to ship
+
+	7) git diff master..car
+
+	8) git checkout -b branch3 : create branch and also switch to that branch
+
+	9) git push origin branch3
+	
+	============= Git Merge ================
+		git checkout master
+		git merge car
+
+	============= Git Rebase ================
+
+	- when you want (commit history from another branch) also appear in  
+	   another branch
+
+___________________________________________________________________________________________________

@@ -1,0 +1,23 @@
+--------------------------------------- Windows Commad  --------------------------------------------
+A) Shortcuts : 
+	
+	1)  ][ + E          =>  My Computer Open 
+	2)  ][ + D          =>  Minimize all the Windows
+	3)  ][ + shift + s  =>  Snipping tool (take picture of screen)
+	4)  ][ + ptr scn    =>  take screen shot of screen
+
+____________________________________________________________________________________________________
+
+B] Command Prompt : 
+
+	1) ][  +  R         =>  Open Command Prompt  (type cmd)
+	2) <drive-name>:    =>  Go to that Drive 
+						    C: 
+						    F:
+	3) dir              =>  List Directories and File Present in Current Dir (like ls)
+	4) cls              =>  Clear the Terminal 
+	5) cd <folder-name> =>  Go to that Folder 
+							$ cd Software
+
+
+____________________________________________________________________________________________________
